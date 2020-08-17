@@ -1,0 +1,68 @@
+body { background-color: powderblue; }
+h1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.topdiv{
+  text-shadow: 5px 5px 3px black;
+	background-color: #012D37;
+  color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.24), 0 16px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+.items{
+	background-color: white;
+	height: 517px;
+	margin-left: 200px;
+	margin-right: 200px;
+	animation-name: items_anim;
+	animation-duration: 3.0s;
+  border-radius: 5px;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.24), 0 16px 50px 0 rgba(0,0,0,0.19);
+}
+@keyframes items_anim {
+  from {background-color: powderblue;
+  }
+  to {background-color: white;}
+}
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  /*border-collapse: collapse;*/
+  width: 100%;
+}
+
+#table td {
+  border: 0px solid #ddd;
+  padding: 10px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+/*#table tr:hover {background-color: #ddd;}*/
+
+#table th {
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #012D37;
+  color: white;
+}
+.butt {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+.butt:hover {
+  background-color: #012D37;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
